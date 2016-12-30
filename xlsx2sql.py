@@ -22,9 +22,12 @@ tupper = []
 for i in range (12):
     tupper.append(data[i]) 
 
-istLine = "INSERT OR IGNORE INTO code VALUES(" + str(tupper[0].date()) + ", " + str(tupper[1].date()) + ", " + str(tupper[2]) + ")"
-        #+ ", " + tupper[3] + ", " + tupper[4] + ", " + tupper[5] + ", " + tupper[6] + ", " + tupper[7] + "," +
-        #   tupper[8] + ", " + tupper[9] + ", " + tupper[10] + ", " + tupper[11] +")"
+istLine = "INSERT OR IGNORE INTO code VALUES(" + str(tupper[0].date()) + ", " \
+            + str(tupper[1].date()) + ", " + str(tupper[2]) + ", " \
+            + str(tupper[3].date()) + ", " + str(tupper[4]) + ", " + str(tupper[5]) \
+            + ", " + str(tupper[6]) + ", " + str(tupper[7]) + "," \
+            + str(tupper[8]) + ", " + str(tupper[9]) + ", " + str(tupper[10]) \
+            + ", " + str(tupper[11]) +")"
 
 #SC = []
 #SN = []
