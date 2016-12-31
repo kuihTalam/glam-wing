@@ -21,7 +21,7 @@ for row in ws.rows:
 tupper = []
 for i in range (12):
     tupper.append(data[i]) 
-
+r = 26
 istLine = "INSERT OR IGNORE INTO code VALUES(" + str(tupper[r]) + ", " \
            + str(tupper[r+1]) + ", " + str(tupper[r+2]) + ", " \
            + str(tupper[r+3]) + ", " + str(tupper[r+4]) + ", " + str(tupper[r+5]) \
